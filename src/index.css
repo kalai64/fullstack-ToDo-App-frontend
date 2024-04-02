@@ -14,6 +14,7 @@ h1{
     justify-content: center;
 }
 input{
+    font-size: 18px;
     border: none;
     outline: none;
     width: 400px;
@@ -21,16 +22,22 @@ input{
     border-bottom: 1px solid #000;
 }
 .add{
-    background-color: #000;
-    color: #fff;
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    font-size: larger;
+    background-color: skyblue;
+    color: #000;
+    border-radius: 30px;
     padding: 0.5rem 1.5rem;
     cursor: pointer;
 }
 .todo{
+    font-size: 20px;
     position: relative;
     margin-top: 1rem;
-    background-color: #000;
-    color: #fff;
+    background-color: skyblue;
+    color: #000;
     padding: 1.5rem 3rem;
     border-radius: 5px;
 }
@@ -40,7 +47,7 @@ input{
     transform: translateY(-50%);
     right: 20px;
     display: flex;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 .icon{
     cursor: pointer;
